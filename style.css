@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+  background-image: url(imagenes/fondo.jpg);
+  background-blend-mode: darken;
+  background-color:rgba(0, 0, 0, 0.6);
+  color: #f5ceff;
+  font-family: 'Darumadrop One', cursive;
+  text-align: center;
+  background-position: top;
+  background-size: 3500px;
+  background-repeat: no-repeat;
+}
+
+titulo{
+  font-size: 34px;
+  padding-bottom: 0px;
+  margin-bottom: 3px;
+  
+}
+
+div{
+  width: 100%;
+}
+
+p{
+  border-width: 8px;
+  border-color: white;
+}
+
+#selecciones {
+  display: flex;
+  justify-content: center;
+}
+
+#selecciones img{
+  margin: 32px;
+}
+
+#opciones {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+#opciones ul {
+  background-color: #EFCFF798;
+  backdrop-filter: blur(5px);
+  padding: 15px;
+  width: 80vw;
+  border:2px solid #EFCFF7;
+  border-radius: 6px;
+  padding-left: 0em;
+  padding: 9px;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+#opciones ul li {
+  list-style: none;
+  margin-top: 4px;
+}
+
+#opciones ul li button {
+  background-color: rgba(0, 0, 0, 0);
+  border-style: none;
+}
+
+#opciones ul li button img {
+  width: 128px;
+  height: auto;
+}
+
+#opciones1 {
+  margin-left: 280px;
+}
+
+#opciones2 {
+  margin-right: 280px;
+}
+
+#calcular {
+  font-family: 'Darumadrop One', cursive;
+  font-size: larger;
+  font-weight: bold;
+  background-color: #EFCFF7;
+  border-color: #3E1E6E;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 6px;
+  color:#2C0C50;
+}
+
+#respuesta-lol {
+  display: flex;
+  list-style: none;
+  margin-left: 32px;
+  padding-left: 32px;
+  color:rgb(230, 216, 255);
+  font-size: larger;
+  background-color: rgb(138, 115, 165);
+  border-radius: 4px;
+}
+
+#aaaaa {
+  overflow-x: scroll;
+  background-color: #EFCFF798;
+  backdrop-filter: blur(5px);
+  padding: 15px;
+  width: 80vw;
+  border:2px solid #EFCFF7;
+  border-radius: 6px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 15px;
+}
+
+#imagenes-pokepoke img {
+  width: 128px;
+  height: auto;
+}
+
+#respuesta {
+  font-size: 32px;
+  color: #2C0C50;
+}
