@@ -1,0 +1,52 @@
+
+html {
+    height: 100%;
+    width: 100%;
+    background-image: url(imagenes/fondo_quiz.png);
+    background-blend-mode: darken;
+    background-color:rgba(0, 0, 0, 0.6);
+    color: #f5ceff;
+    font-family: 'Darumadrop One', cursive;
+    text-align: center;
+    background-position-y: 0px;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+  }
+  .botonn{
+    font-family: 'Darumadrop One', cursive;
+    font-size: larger;
+    font-weight: bold;
+    background-color: #EFCFF7;
+    border-color: #3E1E6E;
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 6px;
+    color:#2C0C50;
+    margin: 16px
+  }
+
+#preguntas div p img{
+    width: 128px;
+    height: auto;
+}
+
+.imagen{
+    width: 128px;
+    height: auto;
+}
+
+#preguntas div table{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#preguntas div h4{
+    margin-top: 64px;
+    margin-bottom: 0px;
+}
+
+#preguntas div p{
+    margin-bottom: 3px;
+    margin-top: 0px;
+}

@@ -77,15 +77,12 @@ let pokeid1 = 0;
 let pokeid2 = 0;
 
 function actualizar_poke(opcion, pokeid) {
-    // Conseguimos referencias a las imagenes.
     const tipo1 = document.getElementById("tipo_1");
     const tipo2 = document.getElementById("tipo_2");
 
-    // Opcion nos dice si queremos cambiar la imagen de la izquierda o la de la derecha.
+    
     if (opcion == 0) {
-        // Usamos el nombre en el mapa para conseguir el archivo de imagen.
         tipo1.src = "imagenes/Tipo_" + lospokes[pokeid]["nombre"] + "_EP.png";
-        // Guardamos la id del tipo de pokemon para usar luego.
         pokeid1 = pokeid;
     }
     else {

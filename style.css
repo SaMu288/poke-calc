@@ -9,16 +9,14 @@ html {
   color: #f5ceff;
   font-family: 'Darumadrop One', cursive;
   text-align: center;
-  background-position: top;
-  background-size: 3500px;
+  background-position: -1470px;
+  background-position-y: 0px;
+  background-size: 4500px;
   background-repeat: no-repeat;
 }
 
-titulo{
-  font-size: 34px;
-  padding-bottom: 0px;
-  margin-bottom: 3px;
-  
+h1{
+  font-size: 40px;  
 }
 
 div{
@@ -43,6 +41,7 @@ p{
   display: flex;
   justify-content: space-between;
   margin-top: 16px;
+  margin-bottom: 128px;
 }
 
 #opciones ul {
@@ -127,4 +126,72 @@ p{
 #respuesta {
   font-size: 32px;
   color: #2C0C50;
+}
+
+#borde1 {
+  width: 25%;
+  height: auto;
+  transform: rotate(180deg);
+  z-index: 6;
+  position: absolute;
+  top: 0px;
+  left: 0px; 
+  margin: 0px;
+  padding: 0px; 
+}
+
+#borde2 {
+  width: 25%;
+  height: auto;
+  transform: rotate(90deg);
+  z-index: 6;
+  position: absolute;
+  bottom: -100vh;
+  left: 0px;
+  margin: 0px;
+  padding: 0px; 
+}
+
+#borde3 {
+  width: 25%;
+  height: auto;
+  transform: rotate(270deg);
+  z-index: 7;
+  position: absolute;
+  top:0px;
+  right: 0px; 
+  margin: 0px;
+  padding: 0px; 
+}
+
+#borde4 {
+  width: 25%;
+  height: auto;
+  transform: rotate(0deg);
+  z-index: 5;
+  position: absolute;
+  right: 0px;
+  bottom: -100vh;
+  margin: 0px;
+  padding: 0px; 
+}
+
+#contenido_pag{
+  text-align:center;
+  position:relative;
+  top: 0px;
+  
+}
+
+.botonn{
+  font-family: 'Darumadrop One', cursive;
+  font-size: larger;
+  font-weight: bold;
+  background-color: #EFCFF7;
+  border-color: #3E1E6E;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 6px;
+  color:#2C0C50;
+  margin: 16px
 }
